@@ -12,7 +12,7 @@ const App = () => {
       const text = event.results[0][0].transcript;
       setTranscript(text);
 
-      const res = await fetch('https://speech-to-text-koli.onrender.com', {
+      const res = await fetch('https://speech-to-text-koli.onrender.com/api/transcribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: text }),
