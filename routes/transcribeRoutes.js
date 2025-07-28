@@ -18,3 +18,8 @@ router.post('/transcribe', async (req, res) => {
 });
 
 module.exports = router;
+const res = await fetch('https://speech-to-text-koli.onrender.com/api/transcribe', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ message: text }),
+});
