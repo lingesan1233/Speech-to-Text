@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a full-stack speech-to-text application using the **MERN stack** (MongoDB, Express, React, Node.js) with **Tailwind CSS**. The app captures **live voice input** using the browser's Web Speech API (`webkitSpeechRecognition`), displays the transcribed text, and stores it in MongoDB.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,13 @@
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "mongoose": "^8.16.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lingesan1233/Speech-to-Text.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lingesan1233/Speech-to-Text/issues"
+  },
+  "homepage": "https://github.com/lingesan1233/Speech-to-Text#readme"
 }
